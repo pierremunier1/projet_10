@@ -9,7 +9,9 @@ addons:
   chrome: stable
   firefox: latest
 
-
+branches:
+  only:
+    - staging
     
 install:
   - pip install pipenv
