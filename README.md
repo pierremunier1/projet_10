@@ -1,5 +1,5 @@
 
-# projet_onze pur beurre
+# projet_dix pur beurre
 
 Program developed by Pierre Munier, September2020.
 
@@ -7,6 +7,7 @@ Program developed by Pierre Munier, September2020.
 
 - Autocomplete field in the home page
 - Reset password by email
+- Export function
 
 ## What the project is for ?
 
