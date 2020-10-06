@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7e80adeeee5c6c21b612392f53778b06bd8ea42ce9e7cb154b31867c0a1c505a"
+            "sha256": "32dac6d7345f010a6922079467cfb6201f9e9b6c3f30299fc65805803250178b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -54,6 +54,13 @@
             ],
             "index": "pypi",
             "version": "==3.0.4"
+        },
+        "click": {
+            "hashes": [
+                "sha256:d2b5255c7c6349bc1bd1e59e08cd12acbbd63ce649f2588755783aa94dfb6b1a",
+                "sha256:dacca89f4bfadd5de3d7489b7c8a566eee0d3676333fbb50030263894c38c0dc"
+            ],
+            "version": "==7.1.2"
         },
         "coverage": {
             "hashes": [
@@ -330,6 +337,14 @@
             ],
             "index": "pypi",
             "version": "==0.3.1"
+        },
+        "tchappui-webdrivers": {
+            "hashes": [
+                "sha256:29f4e57a1a19a49949c77e9ebf13d6aea9ea3620fb3cc2517fa48fdcb726d180",
+                "sha256:a208d78093adc8528407a1473f2e44da372f94896a7c1c788379531c8b73580e"
+            ],
+            "index": "pypi",
+            "version": "==0.2.0"
         },
         "toml": {
             "hashes": [
