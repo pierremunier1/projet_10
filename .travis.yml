@@ -16,9 +16,12 @@ before_script:
  
   - install-webdrivers
 
+branch:
+   only:
+    - staging
+
 env:
-  global:
-    - DJANGO_SETTINGS_MODULE="pur_beurre.settings"
+  - DJANGO_SETTINGS_MODULE="pur_beurre.settings"
 
 services:
   - postgresql
