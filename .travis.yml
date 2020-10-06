@@ -2,11 +2,10 @@ dist: bionic
 language: python
 
 python:
-  - '3.6'
+  - '3.7.5'
 
 addons:
   # ajouter uniquement les navigateurs utilisés
-  chrome: stable
   firefox: latest
 
 branches:
@@ -16,11 +15,7 @@ branches:
 install:
   - pip install pipenv
   - pipenv install --dev
-
-
-env:
-  global:
-    - DJANGO_SETTINGS_MODULE="config.settings.travis"
+  - install-webdrivers
 
 services:
   - postgresql
