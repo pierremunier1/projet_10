@@ -17,9 +17,6 @@ install:
   - pip install pipenv
   - pipenv install --dev
 
-before_script:
-  # ajouter tchappui-webdrivers dans requirements.txt
-  #install-webdrivers
 
 env:
   global:
