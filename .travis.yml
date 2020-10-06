@@ -8,16 +8,12 @@ addons:
  
   firefox: latest
 
-branches:
-  only:
-    - staging
-    
 install:
   - pip install pipenv
   - pipenv install --dev
 
 before_script:
-  # ajouter tchappui-webdrivers dans requirements.txt
+ 
   - install-webdrivers
 
 env:
@@ -28,4 +24,4 @@ services:
   - postgresql
 
 script:
-  - python manage.py test -v2
+  - python manage.py test 
