@@ -8,9 +8,6 @@ addons:
   # ajouter uniquement les navigateurs utilisés
   firefox: latest
 
-branches:
-  only:
-    - staging
     
 install:
   - pip install pipenv
