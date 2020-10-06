@@ -19,7 +19,7 @@ install:
 
 before_script:
   # ajouter tchappui-webdrivers dans requirements.txt
-  - install-webdrivers
+  #install-webdrivers
 
 env:
   global:

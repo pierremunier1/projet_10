@@ -41,6 +41,7 @@ Django = "==3.0.7"
 django-environ = "*"
 selenium = "*"
 tchappui-webdrivers = "*"
+install-webdrivers = "*"
 
 [requires]
 python_version = "3.6"
