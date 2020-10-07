@@ -1,8 +1,13 @@
 from . import *
+import environ
 
 
 
-SECRET_KEY = "hxmyt$ce=t$^j&1=&#wrq$wufxfs28m*un*@$9$ftcpd51-w9&"
+env = environ.Env()
+environ.Env.read_env()
+
+
+SECRET_KEY = env('SECRET_KEY')
 
 DATABASES = {
     'default': {
