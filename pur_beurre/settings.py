@@ -35,7 +35,8 @@ else:
 
 
 ALLOWED_HOSTS = ['0.0.0.0', 'localhost',
-                 '127.0.0.1', 'purbeurre75.herokuapp.com']
+                 '127.0.0.1', 'purbeurre75.herokuapp.com',
+                 '46.101.144.128']
 
 # auth
 
