@@ -37,7 +37,7 @@ else:
 ALLOWED_HOSTS = ['0.0.0.0', 'localhost',
                  '127.0.0.1', 'purbeurre75.herokuapp.com']
 
-# auth
+# authtest
 
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
