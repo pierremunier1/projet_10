@@ -19,3 +19,21 @@ JavaScript error: http://localhost:57257/users/login/?next=/my_account, line 78:
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1602236007699	geckodriver	INFO	Listening on 127.0.0.1:37595
+1602236008705	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilep0kSHJ"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602236011489	Marionette	INFO	Listening on port 33475
+1602236011514	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:46097/users/login/?next=/my_account, line 77: SyntaxError: unexpected token: ':'
+JavaScript error: http://localhost:46097/users/login/?next=/my_account, line 78: SyntaxError: unexpected token: ':'
+1602236014842	Marionette	INFO	Stopped listening on port 33475
+1602236035510	geckodriver	INFO	Listening on 127.0.0.1:60371
+1602236035516	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMzHBxd"
+*** You are running in headless mode.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602236038288	Marionette	INFO	Listening on port 42431
+1602236038330	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:33481/users/login/?next=/my_account, line 77: SyntaxError: unexpected token: ':'
+JavaScript error: http://localhost:33481/users/login/?next=/my_account, line 78: SyntaxError: unexpected token: ':'
+1602236040718	Marionette	INFO	Stopped listening on port 42431
