@@ -190,10 +190,10 @@
         },
         "packaging": {
             "hashes": [
-                "sha256:4357f74f47b9c12db93624a82154e9b120fa8293699949152b22065d556079f8",
-                "sha256:998416ba6962ae7fbd6596850b80e17859a5753ba17c32284f67bfff33784181"
+                "sha256:24e0da08660a87484d1602c30bb4902d74816b6985b93de36926f5bc95741858",
+                "sha256:78598185a7008a470d64526a8059de9aaa449238f280fc9eb6b13ba6c4109093"
             ],
-            "version": "==20.4"
+            "version": "==20.8"
         },
         "pluggy": {
             "hashes": [
@@ -340,11 +340,11 @@
         },
         "tchappui-webdrivers": {
             "hashes": [
-                "sha256:29f4e57a1a19a49949c77e9ebf13d6aea9ea3620fb3cc2517fa48fdcb726d180",
-                "sha256:a208d78093adc8528407a1473f2e44da372f94896a7c1c788379531c8b73580e"
+                "sha256:41c747d1d9f61cdf04b381d39cfec45e2711a4fec79497fa3e82cb4b02b92a18",
+                "sha256:ccc8d5d9619b8ec6fd84e03ba28c6d151166eadd2ece8a23c9d8fb554de88bda"
             ],
             "index": "pypi",
-            "version": "==0.2.0"
+            "version": "==0.3.7"
         },
         "toml": {
             "hashes": [
